@@ -1,0 +1,17 @@
+body{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #0b0e18;
+	text-align: center;
+	color: #bee2ff;
+	font-family: monospace;
+}
+
+input {
+	border: 3px solid transparent;
+	font-family: monospace;
+}
+
+#respuesta {
+	padding-bottom: 20px;
+}
