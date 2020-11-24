@@ -30,13 +30,12 @@ Este proyecto fue propuesto en el _curso de fundanentos de JS_ de Platzi, replic
 
 ### Budget App
 Hice varios ejercicios que estaban propuestos en uno de los tantos [_#100DaysOfCode_](https://jsbeginners.com/javascript-projects-for-beginners/), este fue uno de los que más me gustó.
+(Reconozco no haberlos terminado todos 🤭)
 
 [Link del proyecto](http://projects.giselahaag.com/training-projects/budget-app/)
 
 ### Cart Project
 Este es otra de las propuestas de [_#100DaysOfCode_](https://jsbeginners.com/javascript-projects-for-beginners/). Está enfocado en el código y la práctica de JavaScript, le falta bastante para mejorar el diseño, me queda como tarea pendiente 👆🏻!
-
-(Reconozco no haberlos terminado todos 🤭)
 
 [Link del proyecto](http://projects.giselahaag.com/training-projects/cart-project/)
 
@@ -64,7 +63,7 @@ En este ejercicio, busque un sitio que me gustó (era un template que podía ser
 
 ### Catálogo de ventas
 
-Antes de mudarnos a vivir a España, con mi amado ❤ [@ilanvivanco](https://github.com/ilanvivanco) hicimos un catálogo para vender nuestras cosas. Él lo realizó utilizando Vue.js, pero yo decidí hacer mi propia version en Wordpress, decidí no completar todos los artículos que teniamos a la venta, porque escapaba al objetivo de la práctica.
+Antes de mudarnos a vivir a España, con mi marido (@ilanvivanco) hicimos un catálogo para vender nuestras cosas. Él lo realizó utilizando Vue.js, pero yo decidí hacer mi propia version en Wordpress, decidí no completar todos los artículos que teniamos a la venta, porque escapaba al objetivo de la práctica.
 [Link del proyecto](http://catalogo.giselahaag.com/)
 
 ### Play2fund
