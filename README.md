@@ -64,7 +64,7 @@ En este ejercicio, busque un sitio que me gustó (era un template que podía ser
 
 ### Catálogo de ventas
 
-Antes de mudarnos a vivir a España, con mi marido [@ilanvivanco](https://github.com/ilanvivanco) hicimos un catálogo para vender nuestras cosas. Él lo realizó utilizando Vue.js, pero yo decidí hacer mi propia version en Wordpress, decidí no completar todos los artículos que teniamos a la venta, porque escapaba al objetivo de la práctica.
+Antes de mudarnos a vivir a España, con mi amado ❤ [@ilanvivanco](https://github.com/ilanvivanco) hicimos un catálogo para vender nuestras cosas. Él lo realizó utilizando Vue.js, pero yo decidí hacer mi propia version en Wordpress, decidí no completar todos los artículos que teniamos a la venta, porque escapaba al objetivo de la práctica.
 [Link del proyecto](http://catalogo.giselahaag.com/)
 
 ### Play2fund
