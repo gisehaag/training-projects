@@ -1,6 +1,7 @@
 # Training-projects
 
-En este repositorio voy a volcar los proyectos más interesantesa que fui haciendo para ir adquiriendo más experiencia y nuevas **skills** 🤓.
+En este repositorio voy a vuelco los proyectos más interesantesa o que  más me gustaron, que fui haciendo para ir adquiriendo más experiencia y nuevas **skills** 🤓.
+
 La dificultad y complejidad de los proyectos va incrementandose con el transcurrir de la práctica.
 
 Los distintos cursos que fui haciendo proponen actividades para prácticar, y estás son algunas de ellas:
@@ -33,7 +34,7 @@ Hice varios ejercicios que estaban propuestos en uno de los tantos [_#100DaysOfC
 [Link del proyecto](http://projects.giselahaag.com/training-projects/budget-app/)
 
 ### Cart Project
-Este es otra de las propuestas de [_#100DaysOfCode_](https://jsbeginners.com/javascript-projects-for-beginners/).
+Este es otra de las propuestas de [_#100DaysOfCode_](https://jsbeginners.com/javascript-projects-for-beginners/). Está enfocado en el código y la práctica de JavaScript, le falta bastante para mejorar el diseño, me queda como tarea pendiente 👆🏻!
 
 (Reconozco no haberlos terminado todos 🤭)
 
@@ -63,8 +64,10 @@ En este ejercicio, busque un sitio que me gustó (era un template que podía ser
 
 ### Catálogo de ventas
 
+Antes de mudarnos a vivir a España, con mi marido (@ilanvivanco) hicimos un catálogo para vender nuestras cosas. Él lo realizó utilizando Vue.js, pero yo decidí hacer mi propia version en Wordpress, decidí no completar todos los artículos que teniamos a la venta, porque escapaba al objetivo de la práctica.
 [Link del proyecto](http://catalogo.giselahaag.com/)
 
 ### Play2fund
+Otra práctica que realice en Wordpress, intentando replicar el sitio [Play2fund](https://play2fund.com/).
 
 [Link del proyecto](http://p2f.giselahaag.com/)
