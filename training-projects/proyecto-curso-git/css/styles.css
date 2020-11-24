@@ -1,0 +1,63 @@
+body {
+ color: #eee;
+ font-family: 'Montserrat', sans-serif;
+ background-color: #222;
+ margin-top: 30px;
+}
+
+#container{
+ background-color: #4f6377;
+ width: 70%;
+ margin: 0 auto;
+ padding: 0;
+ text-align: center;
+ border: 1px solid #333;
+}
+
+#cabecera {
+	display: flex;
+	align-items: center;
+	background-color: #345;
+	/* box-shadow: 5px 0px 28px -1px rgba(1,93,255,0.5); */
+}
+
+#cabecera h1 {
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	font-size: 28px;
+	margin: 0;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+#logo{
+	width: 8%;
+	padding: 5px;
+}
+
+#tagline {
+	vertical-align: middle;
+	font-size: 16px;
+	font-weight: normal;
+	padding-left: 20px;
+}
+
+#post{
+	padding: 0 15px;
+}
+
+#post img {
+	width: 400px;
+	text-align: center;
+	border: 2px #def solid;
+}
+
+footer {
+	background-color:#2a3a4a;
+}
+.footer--title{
+	font-size: 14px;
+	padding: 5px;
+	color: #728eaa;
+}
