@@ -1,0 +1,57 @@
+body {
+    background: #eef9bf;
+    /* color: #6a8caf; */
+    margin-left: 100px;
+    margin-right: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 50px;
+}
+
+.budget-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.expenses-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.budget-resume,
+.expenses-resume,
+.balance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: space-around;
+}
+
+.details-titles,
+.expense-items{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+/* .expenses-details {
+    display: flex;
+    flex-direction: column;
+
+} */

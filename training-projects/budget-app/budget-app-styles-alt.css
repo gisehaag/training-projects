@@ -1,0 +1,132 @@
+body {
+    background: #eef9bf;
+    margin:30px 50px auto 100px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 1.5fr;
+    grid-auto-flow: column;
+    gap: 50px;
+}
+
+.container label {
+    margin-bottom: 5px;
+}
+.container input {
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+}
+
+
+
+.budget-box,
+.expenses-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 20px 10px;
+    /* height: 150px; */
+    
+}
+
+
+.budget-box a,
+.expenses-box a {
+    text-decoration: none;
+    color: black;
+    width: 30%;
+    padding: 5px 15px;
+    text-align: center;
+    margin-top: 10px;
+ 
+}
+
+.budget-box{
+    border: 2px solid green;
+}
+
+.expenses-box {
+    border: 2px solid red;
+}
+
+.budget-box a,
+.budget-box input {
+    border: 0.75px solid green;
+}
+
+.budget-box a:hover {
+    background-color: green;
+    color: white;
+}
+
+
+.expenses-box a,
+.expenses-box input {
+    border: 0.75px solid red;
+}
+
+.expenses-box a:hover {
+    background-color: red;
+    color: white;
+}
+
+.budget-resume,
+.expenses-resume,
+.balance {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.icon {
+    font-size: 35px;
+    color: #1b6ca8;
+}
+
+.title {
+    /* display: fleçx; */
+    justify-content: center;
+}
+
+.expenses-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.details-titles,
+.expense-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+}
+.details-titles,
+.title {
+    font-weight: 600;
+}
+.expense-item{
+    margin-bottom: 5px;
+}
+.delete {
+    color: red;
+}
+
+.edit {
+    color: #1b6ca8;
+}

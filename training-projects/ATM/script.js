@@ -6,12 +6,12 @@ class Billetes{
     constructor (m,c){
 
         this.fotos = {
-            "1000": "http://giselahaag.com/img/atm/billete1000.jpg",
-            "500": "http://giselahaag.com/img/atm/billete500.jpg",
-            "200": "http://giselahaag.com/img/atm/billete200.jpg",
-            "100": "http://giselahaag.com/img/atm/billete100_2018.jpg",
-            "50": "http://giselahaag.com/img/atm/billete50_2018.jpg",
-            "20": "http://giselahaag.com/img/atm/billete20_2017.jpg",
+            "1000": "billete1000.jpg",
+            "500": "billete500.jpg",
+            "200": "billete200.jpg",
+            "100": "billete100_2018.jpg",
+            "50": "billete50_2018.jpg",
+            "20": "billete20_2017.jpg",
         };
 
         this.monto = m;

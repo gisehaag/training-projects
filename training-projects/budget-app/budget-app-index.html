@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="budget-app-styles-alt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>     -->
+
+    <title>BudgetApp</title>
+</head>
+<body>
+    <h1 class="title">BUDGET APP</h1>
+    <div class="container">
+        <div class="budget-box">
+            <label for="" class="title">Please Enter Your Budget</label>
+            <input class="budget-input" type="number" required>
+            <a id="calculateBudget" href="#">Calculate</a>
+        </div>
+
+        <div class="expenses-box">
+            <label for="" class="title">Please Enter Your Expense</label>
+            <input class="expense-title" type="text" required>
+            <label for="" class="title">Please Enter Expense Amount</label>
+            <input class="expense-value" type="number" required>
+            <a id="addExpenses" href="#">Add Expense</a>
+        </div>
+        
+        <div class="resume">
+            <div class="budget-resume">
+                <span class="title">Budget</span>
+                <i class="fas fa-wallet icon"></i>
+                <span class="budget-amount">$ 0</span>
+            </div>
+
+            <div class="expenses-resume">
+                <span class="title">Expenses</span>
+                <i class="far fa-money-bill-alt icon"></i>
+                <span class="expenses-amount">$ 0</span>
+            </div>
+
+            <div class="balance">
+                <span class="title">Balance</span>
+                <i class="fas fa-hand-holding-usd icon"></i>
+                <span class="balance-amount">$ 0</span>
+            </div>
+        </div>
+
+        <div class="expenses-details">
+            <div class="details-titles">
+                <span class="title">Expense Title</span>
+                <span class="title">Expense Value</span>
+                <span class="title"></span>
+            </div>
+
+            <div class="expense-items"></div>
+        </div>
+    </div>
+    
+    <script src="budget-app-script.js"></script>
+</body>
+</html>
