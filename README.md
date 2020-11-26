@@ -68,6 +68,6 @@ Antes de mudarnos a vivir a España, con mi amado ❤ [@ilanvivanco](https://git
 [Link del proyecto](http://catalogo.gisehaag.com/)
 
 ### Play2fund
-Otra práctica que realice en Wordpress, intentando replicar el sitio [Play2fund](https://play2fund.com/).
+Otra práctica que realice en Wordpress, intentando replicar la pagina de eventos del sitio [Play2fund](https://play2fund.com/).
 
 [Link del proyecto](http://p2f.gisehaag.com/)
