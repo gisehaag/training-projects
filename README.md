@@ -1,6 +1,6 @@
 # Training-projects
 
-En este repositorio voy a ir volcando los proyectos más interesantes o que más me gustaron, de los que fui haciendo para ir adquiriendo experiencia y nuevas **skills** 🤓.
+En este [repositorio](https://github.com/gisehaag/training-projects) voy a ir volcando los proyectos más interesantes o que más me gustaron, de los que fui haciendo para ir adquiriendo experiencia y nuevas **skills** 🤓.
 
 La dificultad y complejidad de los proyectos va incrementandose con el transcurrir de la práctica.
 
