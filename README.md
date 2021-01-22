@@ -17,6 +17,8 @@ Los distintos cursos que fui haciendo proponen actividades para prácticar, y es
 + [Catálogo de ventas (_Wordpress_)](#catálogo-de-ventas)
 + [Play2fund (_Wordpress_)](#play2fund)
 + [MediaPlayer (_JavasSript_)](#MediaPlayer)
++ [Book directory (_NodeJS_)](#Book-directory)
+
 
 
 ### ATM
