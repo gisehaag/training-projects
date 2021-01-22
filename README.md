@@ -79,3 +79,9 @@ La clase MediaPlayer es un reproductor de videos. Pasando por HTML, una url que 
 
 [Link del proyecto](http://test.gisehaag.com/mediaplayer)
 
+
+### Book directory
+El proyecto con el que comencé a practicar NodeJS es este directorio de libros. Utilice Express como framework para dar vida a esta app. Cree distintos endpoints, para manejar las peticiones con cuatro métodos distintos: GET, POST, PUT y DELETE. Almecené los libros en un base de datos de MongoDB, y utilicé la librería Mongoose para definir cómo quería almacenar los datos.
+
+[Link del repositorio](https://github.com/gisehaag/book_directory_NodeJs)
+
