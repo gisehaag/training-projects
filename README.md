@@ -16,6 +16,7 @@ Los distintos cursos que fui haciendo proponen actividades para prácticar, y es
 + [Original Lifestyle blog (_HTML y CSS_)](#original-lifestyle-blog)
 + [Catálogo de ventas (_Wordpress_)](#catálogo-de-ventas)
 + [Play2fund (_Wordpress_)](#play2fund)
++ [MediaPlayer (_JavasSript_)](#MediaPlayer)
 
 
 ### ATM
@@ -71,3 +72,10 @@ Antes de mudarnos a vivir a España, con mi amado ❤ [@ilanvivanco](https://git
 Otra práctica que realice en Wordpress, intentando replicar la pagina de eventos del sitio [Play2fund](https://play2fund.com/).
 
 [Link del proyecto](http://p2f.gisehaag.com/)
+
+### MediaPlayer
+
+La clase MediaPlayer es un reproductor de videos. Pasando por HTML, una url que contiene un video y un elemento dónde alojarlo junto con sus controles, el script crea el template, y se encarga de la funcionalidad de dicho reproductor. Lo pensé para que eventualmente pueda convertirse en un pluggin, que este disponible para incorporar en cualquier proyecto. Asimismo, la clase puede tener varias instancias (con distintos elementos de configuración), si se quiere tener varios videos cada uno con sus controles que funcionan independientemente.
+
+[Link del proyecto](http://test.gisehaag.com/mediaplayer)
+
