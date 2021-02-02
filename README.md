@@ -6,6 +6,7 @@ Los distintos cursos que fui haciendo proponen actividades para prácticar, y ac
 
 La dificultad y complejidad de los proyectos va incrementandose con el transcurrir de la práctica, los más nuevos están al principio de la siguiente lista:
 
+-  [FreeCodeCamp](#FreeCodeCamp)
 -  [TicTacToe (_JavasSript_)](#TicTacToe)
 -  [MediaPlayer (_JavasSript_)](#MediaPlayer)
 -  [Book directory (_NodeJS_)](#Book-directory)
@@ -20,6 +21,13 @@ La dificultad y complejidad de los proyectos va incrementandose con el transcurr
 -  [Original Lifestyle blog (_HTML y CSS_)](#original-lifestyle-blog)
 -  [ATM (_JavaScript_)](#atm)
 -  [Simon says (_JavaScript_)](#simon-says)
+
+### FreeCodeCamp <kbd>feb-21</kbd>
+
+Encontré esta genial fuente de conocimiento y aprendizaje, y me dieron ganas de hacer todos los cursos y desafios que proponen.
+A medida que voy realizandolos, voy almacenándolos en este [repo](https://github.com/gisehaag/freeCodeCamp). 
+
+[Link del proyecto](http://freecodecamp.gisehaag.com)
 
 ### TicTacToe <kbd>ene-21</kbd>
 
