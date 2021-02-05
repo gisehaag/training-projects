@@ -6,21 +6,21 @@ Los distintos cursos que fui haciendo proponen actividades para prácticar, y ac
 
 La dificultad y complejidad de los proyectos va incrementandose con el transcurrir de la práctica, los más nuevos están al principio de la siguiente lista:
 
--  [FreeCodeCamp](#FreeCodeCamp)
--  [TicTacToe (_JavasSript_)](#TicTacToe)
--  [MediaPlayer (_JavasSript_)](#MediaPlayer)
--  [Book directory (_NodeJS_)](#Book-directory)
--  [gisehaag.com (_WordPress_)](#gisehaag.com)
--  [Proyecto curso Git (_Git_)](#proyecto-curso-git)
--  [Catálogo de ventas (_Wordpress_)](#catálogo-de-ventas)
--  [Play2fund (_Wordpress_)](#play2fund)
--  [Hold Shift and Check Checkboxes (_Javascript_)](#hold-shift-and-check-checkboxes)
--  [Drum kit (_JavaScript_)](#drum-kit)
--  [Budget App (_JavaScript_)](#budget-app)
--  [Cart Project (_JavaScript_)](#cart-project)
--  [Original Lifestyle blog (_HTML y CSS_)](#original-lifestyle-blog)
--  [ATM (_JavaScript_)](#atm)
--  [Simon says (_JavaScript_)](#simon-says)
+-  [FreeCodeCamp](#feb-21-freecodecamp)
+-  [TicTacToe (_JavasSript_)](#ene-21-tictactoe)
+-  [MediaPlayer (_JavasSript_)](#ene-21-mediaplayer)
+-  [Book directory (_NodeJS_)](#dic-20-book-directory)
+-  [gisehaag.com (_WordPress_)](#nov-20---ene-21-gisehaagcom)
+-  [Proyecto curso Git (_Git_)](#nov-20-proyecto-curso-git)
+-  [Catálogo de ventas (_Wordpress_)](#oct-20-catálogo-de-ventas)
+-  [Play2fund (_Wordpress_)](#oct-20-play2fund)
+-  [Hold Shift and Check Checkboxes (_Javascript_)](#jul-20-hold-shift-and-check-checkboxes)
+-  [Drum kit (_JavaScript_)](#jun-20-drum-kit)
+-  [Budget App (_JavaScript_)](#jun-20-budget-app)
+-  [Cart Project (_JavaScript_)](#may-20-cart-project)
+-  [Original Lifestyle blog (_HTML y CSS_)](#abr-20-original-lifestyle-blog)
+-  [ATM (_JavaScript_)](#abr-20-atm)
+-  [Simon says (_JavaScript_)](#nov-19-simon-says)
 
 ### <kbd>feb-21</kbd> FreeCodeCamp 
 
