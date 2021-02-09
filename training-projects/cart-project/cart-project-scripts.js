@@ -230,7 +230,7 @@ const $showCart = document.getElementById('cart');
 // let { img:image, description, price } = data;
 
 $showCart.addEventListener('click', () => {
-    $cart.classList.add('show');
+    $cart.classList.toggle('show');
 })
 
 
