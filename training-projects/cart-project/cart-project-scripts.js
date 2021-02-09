@@ -79,13 +79,14 @@ const $modal = document.querySelector('.modal');
 const $modalcontainer = document.querySelector('.modal-container');
 const $imagemodal = document.getElementById('image-modal');
 
-const images = Array.from(document.querySelectorAll('.product .image')).map((element) => element.src);
+const images = document.querySelectorAll('.product .image');
+const imagesSrc = Array.from(images).map((element) => element.src);
 
 let n = 12;
 
 const $controls = document.querySelectorAll('.controls');
 
-$description.forEach(($image) => {
+images.forEach(($image) => {
     $image.addEventListener('click', gallery)
 })
 
@@ -100,7 +101,7 @@ function gallery(event) {
 
     // let corte = img.split('/').pop();
 
-    n = images.indexOf(img);
+    n = imagesSrc.indexOf(img);
 
 
     // esa hermosa de arriba es igual al choclo de abajo, gracias profe!!
@@ -121,18 +122,18 @@ $controls.forEach(($boton) => {
 function changeImages() {
     let delta = (this.classList.contains('back')) ? -1 : 1;
 
-    if ((n + delta) >= images.length) {
+    if ((n + delta) >= imagesSrc.length) {
         n = -1;
     }
 
     if ((n + delta) < 0) {
-        n = images.length;
+        n = imagesSrc.length;
     }
 
-    let img = images[n + delta];
+    let img = imagesSrc[n + delta];
 
     $imagemodal.setAttribute('src', img);
-    n = images.indexOf(img);
+    n = imagesSrc.indexOf(img);
 }
 
 
