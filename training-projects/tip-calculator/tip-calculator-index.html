@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tip-calculator.css">
+    <title>TipCalculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Tip Calculator</h1>
+
+        <form action="" id="form">       
+            <div class="box">  
+                <label for="">How Much Was Your Bill?</label>
+                <div class="line">
+                    <img src="icons8-money.png" alt="" width="25px"><input type="number" id="bill" required>
+                </div>
+                
+                <label for="">How Many People Sharing The Bill?</label>
+                
+                <div class="line">
+                    <img src="icons8-people.png" alt="" width="25px"><input type="number" id="people" required> 
+                </div>
+                
+                <div class="line column">
+                    <label for="">How Was Your Service?</label>
+                
+                    <select name="service" id="service" required>  
+                        <option value="" disabled selected>Choose...</option>  
+                        <option value="Great">Great - 20%</option>
+                        <option value="Good">Good - 10%</option>
+                        <option value="Bad">Bad - 2%</option>
+                    </select>
+                </div>
+                    
+                <input type="submit" value="Calculate">
+            </form>
+
+            <div class="results">
+                <div class="result-titles">
+                    <span>Tip Amount</span>
+                    <span>Total Amount</span>
+                    <span>Each Person Owes</span>
+                </div>
+                <div class="result-responses">
+                    <span id="tipAmount"></span>
+                    <span id="totalAmount"></span>
+                    <span id="amountPerEach"></span>
+                </div>
+                
+            </div>
+
+        </div>
+        
+    </div>
+    
+    <script src="tip-calculator.js"></script>
+</body>
+</html>

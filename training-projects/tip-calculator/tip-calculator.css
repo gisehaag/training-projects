@@ -1,0 +1,106 @@
+body, html {
+    background-color: #87c0cd;
+    color: #113f67;
+    font-family: 'Nunito', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #f3f9fb;
+    width: 50%;
+    margin: 5% auto;
+}
+
+.container h1 {
+    padding: 0px;
+    background-color: #226597;
+    color: #f3f9fb;
+    text-align: center;
+    margin-bottom: 0px ;
+}
+
+.container label {
+    display: block;
+}
+
+.box {
+    padding: 30px;
+    font-weight: 600;
+    
+}
+
+/* a[href$=.pdf] { todos los a que el href termine en pdf */
+
+/* .box input[type*=submit] {  que type contenga submit */ 
+/* .box input[type$=submit] { que type termine submit */
+/* .box input[type^=submit] { que type empiece submit */
+.box input[type=submit] {
+    display: block;
+    text-decoration: none;
+    background-color: #226597;
+    color: #f3f9fb;
+    text-align: center;
+    width: 40%;
+    margin: 0px auto;
+    padding: 5px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+
+.line {
+    margin-bottom: 30px;
+    display: flex;
+
+}
+
+.line.column {
+    flex-direction: column;
+}
+
+.line select {
+    width: 100px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+.line  input {
+    width: 100%;
+    vertical-align: middle;
+    height: 25px;
+}
+
+.line img {
+    border: 3px solid #226597;
+    vertical-align: middle;
+}
+
+
+
+.results {
+    display: none;
+    width: 68%;
+    margin: 20px auto 0;
+}
+
+.results.show {
+    display: flex;
+}
+
+.results span {
+    display: block;
+}
+
+.result-titles {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.result-responses {
+    text-align: left;     
+}
