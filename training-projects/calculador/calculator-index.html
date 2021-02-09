@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calculator.styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1> Let's some math! 🤓</h1>
+    <div class="container">
+        <div class="result"> 
+            <span id="cuenta"></span>
+            <span id="result"></span>
+        </div>
+
+
+        <div class="number">
+            <a class="button" data-type='number' data-info='1' href="#">1</a>
+            <a class="button" data-type='number' data-info='2' href="#">2</a>
+            <a class="button" data-type='number' data-info='3' href="#">3</a>
+            <a class="button" data-type='number' data-info='4' href="#">4</a>
+            <a class="button" data-type='number' data-info='5' href="#">5</a>
+            <a class="button" data-type='number' data-info='6' href="#">6</a>
+            <a class="button" data-type='number' data-info='7' href="#">7</a>
+            <a class="button" data-type='number' data-info='8' href="#">8</a>
+            <a class="button" data-type='number' data-info='9' href="#">9</a>
+            <a class="button" data-type='number' data-info='0' href="#">0</a>
+            <a class="button" data-type='equal' href="#">=</a>
+            <a class="button" data-type='clear' href="#">ce</a>
+        </div>
+        
+        <div class="operator">
+            <a class="button" data-type='operator' data-info='+' href="#">+</a>
+            <a class="button" data-type='operator' data-info='-' href="#">-</a>
+            <a class="button" data-type='operator' data-info='*' href="#">*</a>
+            <a class="button" data-type='operator' data-info='/'href="#">/</a>
+        </div>
+    </div>
+
+    <script src="calculator-script.js"></script>
+</body>
+</html>
