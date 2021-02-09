@@ -1,182 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="cart-project-styles.css">
-    <title>Grandma's</title>
-</head>
-<body>
-    <header class="header">
-        <div class="header-container">       
-            <img src="./img/logo.svg" alt="logo">
-            <div class="pages">
-                <a href="#">Home</a>
-                <a href="#">About</a>  
-                <a href="#">Store</a>
-            </div>
-            <div class="contact">
-                <img src="./img/icons8-teléfono-sin-utilizar-100.png" alt="phone" width="30px">
-                <span>+123 456 789</span>
-            </div>
-            <div class="cart-button">
-                <a id="cart" href="#">
-                    <img src="./img/icons8-carro-favorito-80.png" alt="cart" width="30px">
-                    <span class="cart-button-text"></span>
-                </a>
-            </div>
-        </div>
-    </header>
+		<link rel="stylesheet" href="cart-project-styles.css" />
+		<title>Cart Project</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-left">
+				<img src="./img/logo.svg" alt="logo" />
+				<div class="pages">
+					<a href="#">Home</a>
+					<a href="#">About</a>
+					<a href="#">Store</a>
+				</div>
+			</div>
+			<div class="header-right">
+				<div class="contact">
+					<span class="icon-phone"></span>
+					<span>+123 456 789</span>
+				</div>
+				<div class="cart-button">
+					<a id="cart" href="#">
+						<span class="icon-shopping-basket"></span>
+						<span class="cart-button-text"></span>
+					</a>
+				</div>
+			</div>
+		</header>
 
-    <div class="cart"></div>
-    
-    <div class="container">
-        <div class="store">
-            <div>
-                <a class="selection all" href="#">All</a>
-                <a class="selection cakes" href="#">Cakes</a>  
-                <a class="selection cupcakes" href="#">Cupcakes</a>
-                <a class="selection sweet" href="#">Sweets</a>  
-                <a class="selection doughnuts" href="#">Doughnuts</a>
-            </div>
-            <div class="search">
-                <img src="./img/icons8-google-web-search-80.png" alt="" width="30px"><input id="searcher" type="search" placeholder="item...">
-            </div>
-            <div class="allProducts">
-                <div class="product" data-filter="sweet">
-                    <img class="image" src="./img/sweets-1.jpeg" alt="">
-                    <div class="description sweet">
-                        <span class="item-description">Sweet Item</span>
-                        <span class="price" data-price="5">$5</span>
-                        <span><a class="add-cart" href="#"><img src="./img/icons8-agregar-a-carrito-de-compras-100.png" alt="carrito" width="30px"></a></span>
-                    </div>
-                </div>
+		<div class="cart"></div>
 
-                <div class="product" data-filter="cupcakes">
-                    <img class="image" src="./img/cupcake-1.jpeg" alt="">
-                    <div class="description cupcake">
-                        <span class="item-description">Cupcake</span>
-                        <span class="price" data-price="5">$5</span>
-                        <span><a class="add-cart" href="#"><img src="./img/icons8-agregar-a-carrito-de-compras-100.png" alt="carrito" width="30px"></a></span>
-                    </div>
-                    
-                </div>
+		<div class="container">
+			<div class="store">
+				<div class="filter">
+					<a class="selection cart-button all" href="#">All</a>
+					<a class="selection cart-button cakes" href="#">Cakes</a>
+					<a class="selection cart-button cupcakes" href="#">Cupcakes</a>
+					<a class="selection cart-button sweet" href="#">Sweets</a>
+					<a class="selection cart-button doughnuts" href="#">Doughnuts</a>
+				</div>
+				<div class="search">
+					<span class="icon-search"></span>
+					<input id="searcher" type="search" placeholder="item..." />
+				</div>
+				<div class="allProducts">
+					<div class="product" data-filter="sweet">
+						<img class="image" src="./img/sweets-1.jpeg" alt="" />
+						<div class="description sweet">
+							<span class="item-description">Sweet Item</span>
+							<span class="price" data-price="5">$5</span>
+							<a class="add-cart" href="#"><span class="icon-cart"></span></a>
+						</div>
+					</div>
 
-                <div class="product" data-filter="cakes">
-                    <img class="image" src="./img/cake-1.jpeg" alt="">
-                    <div class="description cake">
-                        <span class="item-description">Cake Item</span>
-                        <span class="price" data-price="5">$5</span>
-                        <span><a class="add-cart" href="#"><img src="./img/icons8-agregar-a-carrito-de-compras-100.png" alt="carrito" width="30px"></a></span>
-                    </div>
-                </div>    
+					<div class="product" data-filter="cupcakes">
+						<img class="image" src="./img/cupcake-1.jpeg" alt="" />
+						<div class="description cupcake">
+							<span class="item-description">Cupcake</span>
+							<span class="price" data-price="5">$5</span>
+							<a class="add-cart" href="#"><span class="icon-cart"></span></a>
+						</div>
+					</div>
 
-                <div class="product" data-filter="doughnuts">
-                    <img class="image" src="./img/doughnut-1.jpeg" alt="">
-                    <div class="description doughnuts">
-                        <span class="item-description">Doughnuts Item</span>
-                        <span class="price" data-price="5">$5</span>
-                        <span><a class="add-cart" href="#"><img src="./img/icons8-agregar-a-carrito-de-compras-100.png" alt="carrito" width="30px"></a></span>
-                    </div>
-                </div>
+					<div class="product" data-filter="cakes">
+						<img class="image" src="./img/cake-1.jpeg" alt="" />
+						<div class="description cake">
+							<span class="item-description">Cake Item</span>
+							<span class="price" data-price="5">$5</span>
+							<a class="add-cart" href="#"><span class="icon-cart"></span></a>
+						</div>
+					</div>
 
-                <div class="product" data-filter="sweet">
-                    <img class="image" src="./img/sweets-2.jpeg" alt="">
-                    <div class="description sweet">
-                        <span class="item-description">Sweet Item</span>
-                        <span class="price" data-price="10">$10</span>
-                        <span><a class="add-cart" href="#"><img src="./img/icons8-agregar-a-carrito-de-compras-100.png" alt="carrito" width="30px"></a></span>
-                    </div>
-                </div>
+					<div class="product" data-filter="doughnuts">
+						<img class="image" src="./img/doughnut-1.jpeg" alt="" />
+						<div class="description doughnuts">
+							<span class="item-description">Doughnuts Item</span>
+							<span class="price" data-price="5">$5</span>
+							<a class="add-cart" href="#"><span class="icon-cart"></span></a>
+						</div>
+					</div>
 
-                <div class="product" data-filter="cupcakes">
-                    <img class="image" src="./img/cupcake-2.jpeg" alt="">
-                    <div class="description cupcake">
-                        <span class="item-description">Cupcake</span>
-                        <span class="price" data-price="10">$10</span>
-                        <span><a class="add-cart" href="#"><img src="./img/icons8-agregar-a-carrito-de-compras-100.png" alt="carrito" width="30px"></a></span>
-                    </div>
-                </div>
+					<div class="product" data-filter="sweet">
+						<img class="image" src="./img/sweets-2.jpeg" alt="" />
+						<div class="description sweet">
+							<span class="item-description">Sweet Item</span>
+							<span class="price" data-price="10">$10</span>
+							<a class="add-cart" href="#"><span class="icon-cart"></span></a>
+						</div>
+					</div>
 
-                <div class="product" data-filter="cakes">
-                    <img class="image" src="./img/cake-2.jpeg" alt="">
-                    <div class="description cake">
-                        <span class="item-description">Cake Item</span>
-                        <span class="price" data-price="10">$10</span>
-                        <span><a class="add-cart" href="#"><img src="./img/icons8-agregar-a-carrito-de-compras-100.png" alt="carrito" width="30px"></a></span>
-                    </div>
-                </div>
+					<div class="product" data-filter="cupcakes">
+						<img class="image" src="./img/cupcake-2.jpeg" alt="" />
+						<div class="description cupcake">
+							<span class="item-description">Cupcake</span>
+							<span class="price" data-price="10">$10</span>
+							<a class="add-cart" href="#"><span class="icon-cart"></span></a>
+						</div>
+					</div>
 
-                <div class="product" data-filter="doughnuts">
-                    <img class="image" src="./img/doughnut-2.jpeg" alt="">
-                    <div class="description doughnuts">
-                        <span class="item-description">Doughnuts Item</span>
-                        <span class="price" data-price="10">$10</span>
-                        <span><a class="add-cart" href="#"><img src="./img/icons8-agregar-a-carrito-de-compras-100.png" alt="carrito" width="30px"></a></span>
-                    </div>
-                </div>
+					<div class="product" data-filter="cakes">
+						<img class="image" src="./img/cake-2.jpeg" alt="" />
+						<div class="description cake">
+							<span class="item-description">Cake Item</span>
+							<span class="price" data-price="10">$10</span>
+							<a class="add-cart" href="#"><span class="icon-cart"></span></a>
+						</div>
+					</div>
 
-                <div class="product" data-filter="sweet">
-                    <img class="image" src="./img/sweets-3.jpeg" alt="">
-                    <div class="description sweet">
-                        <span class="item-description">Sweet Item</span>
-                        <span class="price" data-price="15">$15</span>
-                        <span><a class="add-cart" href="#"><img src="./img/icons8-agregar-a-carrito-de-compras-100.png" alt="carrito" width="30px"></a></span>
-                    </div>
-                </div>
+					<div class="product" data-filter="doughnuts">
+						<img class="image" src="./img/doughnut-2.jpeg" alt="" />
+						<div class="description doughnuts">
+							<span class="item-description">Doughnuts Item</span>
+							<span class="price" data-price="10">$10</span>
+							<a class="add-cart" href="#"><span class="icon-cart"></span></a>
+						</div>
+					</div>
 
-                <div class="product" data-filter="cupcakes">
-                    <img class="image" src="./img/cupcake-3.jpeg" alt="">
-                    <div class="description cupcake">
-                        <span class="item-description">Cupcake</span>
-                        <span class="price" data-price="15">$15</span>
-                        <span><a class="add-cart" href="#"><img src="./img/icons8-agregar-a-carrito-de-compras-100.png" alt="carrito" width="30px"></a></span>
-                    </div>
-                </div>
+					<div class="product" data-filter="sweet">
+						<img class="image" src="./img/sweets-3.jpeg" alt="" />
+						<div class="description sweet">
+							<span class="item-description">Sweet Item</span>
+							<span class="price" data-price="15">$15</span>
+							<a class="add-cart" href="#"><span class="icon-cart"></span></a>
+						</div>
+					</div>
 
-                <div class="product" data-filter="cakes">
-                    <img class="image" src="./img/cake-3.jpeg" alt="">
-                    <div class="description cake">
-                        <span class="item-description">Cake Item</span>
-                        <span class="price" data-price="15">$15</span>
-                        <span><a class="add-cart" href="#"><img src="./img/icons8-agregar-a-carrito-de-compras-100.png" alt="carrito" width="30px"></a></span>
-                    </div>
-                </div>
+					<div class="product" data-filter="cupcakes">
+						<img class="image" src="./img/cupcake-3.jpeg" alt="" />
+						<div class="description cupcake">
+							<span class="item-description">Cupcake</span>
+							<span class="price" data-price="15">$15</span>
+							<a class="add-cart" href="#"><span class="icon-cart"></span></a>
+						</div>
+					</div>
 
-                <div class="product" data-filter="doughnuts">
-                    <img class="image" src="./img/doughnut-3.jpeg" alt="">
-                    <div class="description doughnuts">
-                        <span class="item-description">Doughnuts Item</span>
-                        <span class="price" data-price="15">$15</span>
-                        <span><a class="add-cart" href="#"><img src="./img/icons8-agregar-a-carrito-de-compras-100.png" alt="carrito" width="30px"></a></span>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-    
-    <div class="modal">
-        <div class="modal-bg"></div>
-        <div class="modal-container">
-            <div> <a href="#" id="closebutton"><img src="./img/icons8-cerrar-ventana-100.png" alt=""></a></div>
-            <div class="">
-                <img id="image-modal" src="" alt="">
-                <div >
-                    <a class="controls back" href="#"><img src="./img/icons8-clasificar-izquierda-80.png" alt=""></a>
-                    <a class="controls next" href="#"><img src="./img/icons8-clasificar-derecho-80.png" alt=""></a>
-                </div>
-            </div>
-        </div>    
-    </div>
+					<div class="product" data-filter="cakes">
+						<img class="image" src="./img/cake-3.jpeg" alt="" />
+						<div class="description cake">
+							<span class="item-description">Cake Item</span>
+							<span class="price" data-price="15">$15</span>
+							<a class="add-cart" href="#"><span class="icon-cart"></span></a>
+						</div>
+					</div>
 
-   
+					<div class="product" data-filter="doughnuts">
+						<img class="image" src="./img/doughnut-3.jpeg" alt="" />
+						<div class="description doughnuts">
+							<span class="item-description">Doughnuts Item</span>
+							<span class="price" data-price="15">$15</span>
+							<a class="add-cart" href="#"><span class="icon-cart"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <script src="cart-project-scripts.js"></script>
-</body>
+		<div class="modal">
+			<div class="modal-bg"></div>
+			<div class="modal-container">
+				<a href="#" id="closebutton"><span class="icon-close"></span></a>
+				<div>
+					<img id="image-modal" src="" alt="" />
+					<a class="controls back" href="#"><span class="icon-chevron-left"></span></a>
+					<a class="controls next" href="#"><span class="icon-chevron-right"></span></a>
+				</div>
+			</div>
+		</div>
+
+		<script src="cart-project-scripts.js"></script>
+		<script src="http://test.gisehaag.com/assets/footer-script.js"></script>
+	</body>
 </html>
