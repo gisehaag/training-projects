@@ -138,7 +138,7 @@ Esta app es una CRUD application, una simple lista de tareas pendientes. Una vez
      alt="to-do-list"
      width=400px/>
 
-[Link del proyecto](http://projects.gisehaag.com/training-projects/to-do-list/)
+[Link del proyecto](http://projects.gisehaag.com/training-projects/to-do-list/index.html)
 
 ### <kbd>may-20</kbd> Tip calculator
 
