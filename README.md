@@ -6,8 +6,8 @@ Los distintos cursos que fui haciendo proponen actividades para prácticar, y ac
 
 La dificultad y complejidad de los proyectos va incrementandose con el transcurrir de la práctica, los más nuevos están al principio de la siguiente lista:
 
--  [Photo Gallery](#mar-21-photo-gallery)
--  [Wheather app](#feb-21-weather-app)
+-  [Photo Gallery (_PHP_/JavasSript)](#mar-21-photo-gallery)
+-  [Wheather app (_JavasSript_)](#feb-21-weather-app)
 -  [FreeCodeCamp](#feb-21-freecodecamp)
 -  [TicTacToe (_JavasSript_)](#ene-21-tictactoe)
 -  [MediaPlayer (_JavasSript_)](#ene-21-mediaplayer)
