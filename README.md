@@ -6,6 +6,9 @@ Los distintos cursos que fui haciendo proponen actividades para prácticar, y ac
 
 La dificultad y complejidad de los proyectos va incrementandose con el transcurrir de la práctica, los más nuevos están al principio de la siguiente lista:
 
+-  [Clasificación de suelos para uso ingenieril (_Vue JS_)](#sep-21-soil-classificator)
+-  [Photo Gallery (_PHP_/JavasSript)](#mar-21-photo-gallery)
+-  [Wheather app (_JavasSript_)](#feb-21-weather-app)
 -  [FreeCodeCamp](#feb-21-freecodecamp)
 -  [TicTacToe (_JavasSript_)](#ene-21-tictactoe)
 -  [MediaPlayer (_JavasSript_)](#ene-21-mediaplayer)
@@ -23,6 +26,25 @@ La dificultad y complejidad de los proyectos va incrementandose con el transcurr
 -  [Original Lifestyle blog (_HTML y CSS_)](#abr-20-original-lifestyle-blog)
 -  [ATM (_JavaScript_)](#abr-20-atm)
 -  [Simon says (_JavaScript_)](#nov-19-simon-says)
+
+
+### <kbd>sep-21</kbd> Clasificación de suelos para uso ingenieril
+
+[<img src="https://github.com/gisehaag/training-projects/blob/main/screenshots/photo-gallery-app.jpg?raw=true"
+     alt="photo-gallery"
+     width=400px/>](https://clasificador.gisehaag.com)
+
+### <kbd>mar-21</kbd> Photo gallery
+
+[<img src="https://github.com/gisehaag/training-projects/blob/main/screenshots/photo-gallery-app.jpg?raw=true"
+     alt="photo-gallery"
+     width=400px/>](https://photos.gisehaag.com)
+
+### <kbd>feb-21</kbd> Weather app
+
+[<img src="https://raw.githubusercontent.com/gisehaag/weather-app/main/weather-app.png"
+     alt="weather-app"
+     width=400px/>](https://gisehaag.github.io/weather-app/)
 
 ### <kbd>feb-21</kbd> FreeCodeCamp
 
